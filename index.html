@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cafeneaua Ta</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+    }
+    h1, h2, h3 {
+      font-family: 'Playfair Display', serif;
+    }
+  </style>
+</head>
+<body class="text-gray-800">
+
+  <!-- HERO SECTION -->
+  <section class="relative h-screen bg-center bg-cover" style="background-image: url('background.jpg');">
+    <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+      <div class="text-center text-white px-4">
+        <h1 class="text-5xl font-bold mb-4">Cafeneaua Ta</h1>
+        <p class="text-xl">Locul unde începe povestea fiecărei dimineți</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- DESPRE NOI -->
+  <section class="py-16 px-6 max-w-5xl mx-auto">
+    <h2 class="text-3xl font-bold text-center mb-8">Despre Noi</h2>
+    <p class="text-lg text-center">La Cafeneaua Ta, pasiunea pentru cafea se îmbină cu atmosfera relaxantă și primitoare. Te așteptăm cu arome îmbietoare, deserturi delicioase și un vibe care te face să revii mereu cu drag.</p>
+  </section>
+
+  <!-- GALERIE FOTO -->
+  <section class="py-16 bg-gray-100">
+    <h2 class="text-3xl font-bold text-center mb-12">Galerie Foto</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto px-4">
+      <img src="cafea1.jpg" alt="Cafea 1" class="rounded-xl shadow-lg hover:scale-105 transition">
+      <img src="cafea3.jpg" alt="Cafea 2" class="rounded-xl shadow-lg hover:scale-105 transition">
+      <img src="cafea2.jpg" alt="Interior cafenea" class="rounded-xl shadow-lg hover:scale-105 transition">
+      <img src="cafea4.jpg" alt="Detaliu barista" class="rounded-xl shadow-lg hover:scale-105 transition">
+      <img src="cafea5.jpg" alt="Prajituri" class="rounded-xl shadow-lg hover:scale-105 transition">
+      <img src="cafea6.jpg" alt="Terasa" class="rounded-xl shadow-lg hover:scale-105 transition">
+    </div>
+  </section>
+
+  <!-- MENIU -->
+  <section class="py-16 px-6 max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold text-center mb-12">Meniul Nostru Recomandat</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="bg-white p-6 rounded-xl shadow hover:shadow-xl transition">
+        <h3 class="text-xl font-bold mb-2">Espresso Dublu</h3>
+        <p>Aromă intensă, perfect pentru un boost de energie.</p>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow hover:shadow-xl transition">
+        <h3 class="text-xl font-bold mb-2">Cappuccino Crem</h3>
+        <p>Amestec echilibrat de cafea, lapte și spumă fină.</p>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow hover:shadow-xl transition">
+        <h3 class="text-xl font-bold mb-2">Croasant</h3>
+        <p>Un croasant pufos, cu un gust delicat de unt, perfect pentru o dimineață relaxantă alături de cafea.</p>
+      </div>      
+    </div>
+  </section>
+
+  <!-- LOCAȚIE ȘI CONTACT -->
+  <section class="py-16 bg-gray-100 px-6">
+    <h2 class="text-3xl font-bold text-center mb-8">Găsește-ne aici</h2>
+    <div class="max-w-4xl mx-auto text-center">
+      <p class="mb-2">📍 Strada Cafelei Nr. 10, Iași</p>
+      <p class="mb-2">📞 0756 123 ***</p>
+      <p class="mb-4">🕒 Luni - Duminică: 8:00 - 22:00</p>
+      <!-- Locație Google Maps -->
+      <div class="aspect-video w-full rounded-xl overflow-hidden shadow">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2796.407032290105!2d27.57510001507099!3d47.15845467916644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c6a1f837d5b0cf%3A0xd634db8bcb6174c0!2sIa%C8%99i%2C%20Rom%C3%A2nia!5e0!3m2!1sro!2s!4v1681638367592!5m2!1sro!2s" 
+          width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-black text-white py-6 text-center">
+    <p>&copy; 2025 Cafeneaua Ta. Toate drepturile rezervate.</p>
+  </footer>
+
+</body>
+</html>
